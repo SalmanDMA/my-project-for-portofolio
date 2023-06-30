@@ -1,0 +1,19 @@
+.scroll {
+ position: fixed;
+ bottom: 110px;
+ right: 20px;
+ transition: opacity 0.3s ease;
+ background: none;
+ border: none;
+ transition: 0.3s ease all;
+ transform-origin: center;
+}
+
+.scroll--askMe {
+ bottom: 30px !important;
+}
+
+.scroll:hover {
+ transform: scale(1.2);
+ color: #cccccc !important;
+}

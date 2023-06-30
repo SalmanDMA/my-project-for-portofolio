@@ -1,0 +1,30 @@
+.ask-me {
+ position: fixed !important;
+ bottom: 70px;
+ right: 20px;
+ background: none;
+ border: none;
+}
+
+.ask-me::after {
+ content: '';
+ position: absolute;
+ bottom: -10px;
+ left: 50%;
+ transform: translateX(-50%);
+ width: 5px;
+ margin-bottom: -2rem !important;
+ border-radius: 1rem;
+ height: 35px;
+ background-color: #ffffff;
+ cursor: default;
+}
+
+.ask-me_icon {
+ transition: 0.3s ease all;
+}
+
+.ask-me_icon:hover {
+ transform: scale(1.2);
+ color: #cccccc !important;
+}

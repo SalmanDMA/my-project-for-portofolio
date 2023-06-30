@@ -1,0 +1,19 @@
+@font-face {
+ font-family: 'Courier New';
+ font-style: normal;
+ src: url('../assets/fonts/Courier-New/Courier-New.ttf') format('truetype');
+}
+
+@font-face {
+ font-family: 'Verdana';
+ font-style: normal;
+ src: url('../assets/fonts/verdana/verdana.ttf') format('truetype');
+}
+
+.my-font-verdana {
+ font-family: 'Verdana', sans-serif;
+}
+
+.my-font-courier-new {
+ font-family: 'Courier New', sans-serif;
+}

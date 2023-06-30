@@ -1,0 +1,25 @@
+.icon {
+ cursor: pointer;
+}
+
+.form-container {
+ width: 100% !important;
+}
+
+.button-container {
+ width: 30% !important;
+}
+
+.result-container {
+ width: 100% !important;
+}
+
+@media screen and (min-width: 992px) {
+ .form-container {
+  width: 25% !important;
+ }
+
+ .result-container {
+  width: 75% !important;
+ }
+}
